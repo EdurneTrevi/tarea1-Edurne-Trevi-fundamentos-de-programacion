@@ -1,0 +1,19 @@
+/*
+Modifica el anterior script de manera que si los números que se proporcionan
+son iguales deberá pedir de nuevo el segundo hasta que el usuario introduzca
+uno diferente al primero.
+*/
+
+let firstNumber = parseInt(prompt("Escribe un número"));
+
+    do { let secondNumber = parseInt(prompt("Escribe un segundo número"));
+
+        firstNumber == secondNumber;
+       
+         
+
+    } while ((firstNumber > secondNumber) || secondNumber > firstNumber);
+
+       
+    if (firstNumber > secondNumber) console.log (firstNumber);
+    else if (secondNumber > firstNumber) console.log (secondNumber);
